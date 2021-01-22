@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <header>
+            <a class="advanced-logo" href="index.html"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></a>
+            <nav class="advanced-nav-container">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="advanced_search.html">Advanced</a></li>
+                    <li class="nav-item"><a href="image_search.html">Images</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="advanced-header-container">
+            <h2 class="advanced-header">Advanced Search</h2>
+        </div>
+        <div class="advanced-container">
+
+            <h4>Find pages with...</h4>
+
+
+            <form action="https://google.com/search">
+                <div class="searching-form">
+                    <div class="column">
+                        <div class="option-item">
+                            <label for="all-words">all these words:</label>
+                        </div>
+                        <div class="bar-item">
+                            <input type="text" name="q" autocomplete="off"
+                            id="all-words"  class="advanced-search-item">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="option-item">
+                            <label for="exact-words">this exact word or phrase:</label>
+                        </div>
+
+                        <div class="bar-item">
+                            <input type="text" name="as_epq" autocomplete="off"
+                            id="exact-words"  class="advanced-search-item">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="option-item">
+                            <label for="any-words">any of these words:</label>
+                        </div>
+                        <div class="bar-item">
+                            <input type="text" name="as_oq" autocomplete="off"
+                            id="any-words"  class="advanced-search-item">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="option-item">
+                            <label for="none-words">none of these words:</label>
+                        </div>
+                        <div class="bar-item">
+                            <input type="text" name="as_eq" autocomplete="off"
+                            id="none-words"  class="advanced-search-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="advanced-btn">
+                    <button type="submit" atl="advanced search">Advanced Search</button>
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>
+        <!-- regular -->
+        <!-- https://www.google.com/search?hl=en&sxsrf=ALeKk02itOgp9ABaa4Zhrd8L5iCJYDB5tA%3A1611202957657&source=hp&ei=jQEJYIqrJfTq9AO39rL4CA&q=testing+the+phrase&oq=testing+the+phrase&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46BggAEBYQHlCzFVj6K2CfMmgBcAB4AIABa4gB-gKSAQMyLjKYAQCgAQKgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwjKpczflqzuAhV0NX0KHTe7DI8Q4dUDCAk&uact=5-->
+
+
+        <!-- this exact word or phrase-->
+            <!--"testing the phrase"  -->
+            <!-- https://www.google.com/search?as_q=&as_epq=testing+the+phrase&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs= -->
+
+        <!-- any of these words-->
+        <!-- testing OR the OR phrase -->
+        <!--https://www.google.com/search?as_q=&as_epq=&as_oq=testing+the+phrase&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs=  -->
+
+        <!-- none of these words-->
+        <!-- -testing -the -phrase -->
+         <!-- https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq=testing+the+phrase&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs=-->
+
